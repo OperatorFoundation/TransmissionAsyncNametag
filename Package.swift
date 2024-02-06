@@ -18,15 +18,15 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-log", from: "1.5.2"),
 
-        .package(url: "https://github.com/OperatorFoundation/Chord", branch: "main"),
-        .package(url: "https://github.com/OperatorFoundation/Datable", branch: "main"),
-        .package(url: "https://github.com/OperatorFoundation/KeychainTypes", branch: "main"),
-        .package(url: "https://github.com/OperatorFoundation/Nametag", branch: "main"),
-        .package(url: "https://github.com/OperatorFoundation/Net", branch: "main"),
-        .package(url: "https://github.com/OperatorFoundation/ShadowSwift", branch: "main"),
-        .package(url: "https://github.com/OperatorFoundation/Straw", branch: "main"),
-        .package(url: "https://github.com/OperatorFoundation/SwiftHexTools", branch: "main"),
-        .package(url: "https://github.com/OperatorFoundation/TransmissionAsync", branch: "main"),
+        .package(url: "https://github.com/OperatorFoundation/Chord", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/Datable", branch: "4.0.0"),
+        .package(url: "https://github.com/OperatorFoundation/KeychainTypes", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/Nametag", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/Net", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/ShadowSwift", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/Straw", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/SwiftHexTools", branch: "1.2.6"),
+        .package(url: "https://github.com/OperatorFoundation/TransmissionAsync", branch: "release"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
