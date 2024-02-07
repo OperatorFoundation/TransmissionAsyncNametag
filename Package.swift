@@ -21,7 +21,7 @@ let package = Package(
         .package(url: "https://github.com/OperatorFoundation/Chord", branch: "0.1.1"),
         .package(url: "https://github.com/OperatorFoundation/Datable", branch: "4.0.0"),
         .package(url: "https://github.com/OperatorFoundation/KeychainTypes", branch: "release"),
-        .package(url: "https://github.com/OperatorFoundation/Nametag", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/Nametag", branch: "0.1.1"),
         .package(url: "https://github.com/OperatorFoundation/Net", branch: "release"),
         .package(url: "https://github.com/OperatorFoundation/ShadowSwift", branch: "release"),
         .package(url: "https://github.com/OperatorFoundation/Straw", branch: "release"),
