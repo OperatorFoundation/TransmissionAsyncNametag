@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-log", from: "1.5.2"),
 
-        .package(url: "https://github.com/OperatorFoundation/Chord", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/Chord", branch: "0.1.1"),
         .package(url: "https://github.com/OperatorFoundation/Datable", branch: "4.0.0"),
         .package(url: "https://github.com/OperatorFoundation/KeychainTypes", branch: "release"),
         .package(url: "https://github.com/OperatorFoundation/Nametag", branch: "release"),
