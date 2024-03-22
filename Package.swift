@@ -18,15 +18,15 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-log", from: "1.5.2"),
 
-        .package(url: "https://github.com/OperatorFoundation/Chord", from: "0.1.4"),
+        .package(url: "https://github.com/OperatorFoundation/Chord", from: "0.1.5"),
         .package(url: "https://github.com/OperatorFoundation/Datable", from: "4.0.1"),
-        .package(url: "https://github.com/OperatorFoundation/KeychainTypes", from: "1.0.1"),
-        .package(url: "https://github.com/OperatorFoundation/Nametag", from: "0.1.2"),
+        .package(url: "https://github.com/OperatorFoundation/KeychainTypes", from: "1.0.2"),
+        .package(url: "https://github.com/OperatorFoundation/Nametag", from: "0.1.3"),
         .package(url: "https://github.com/OperatorFoundation/Net", from: "0.0.10"),
-        .package(url: "https://github.com/OperatorFoundation/ShadowSwift", from: "5.0.2"),
-        .package(url: "https://github.com/OperatorFoundation/Straw", from: "1.0.1"),
+        .package(url: "https://github.com/OperatorFoundation/ShadowSwift", from: "5.0.3"),
+        .package(url: "https://github.com/OperatorFoundation/Straw", from: "1.0.4"),
         .package(url: "https://github.com/OperatorFoundation/SwiftHexTools", from: "1.2.6"),
-        .package(url: "https://github.com/OperatorFoundation/TransmissionAsync", from: "0.1.4"),
+        .package(url: "https://github.com/OperatorFoundation/TransmissionAsync", from: "0.1.5"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
